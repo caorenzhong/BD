@@ -44,7 +44,7 @@
 
 
 
-#include "CEF3/simple_app.h"
+#include "../../CEF3/simple_app.h"
 
 #include <include/cef_browser.h>
 #include <include/cef_command_line.h>
@@ -55,12 +55,12 @@
 #include "simple_handler.h"
 
 #ifdef _DEBUG
-#pragma comment(lib,"CEF3/lib/x64/Debug/libcef.lib")
-#pragma comment(lib,"CEF3/lib/x64/Debug/libcef_dll_wrapper.lib")
+#pragma comment(lib,"../../CEF3/lib/x64/Debug/libcef.lib")
+#pragma comment(lib,"../../CEF3/lib/x64/Debug/libcef_dll_wrapper.lib")
 
 #else
-#pragma comment(lib,"CEF3/lib/x64/Release/libcef.lib")
-#pragma comment(lib,"CEF3/lib/x64/Release/libcef_dll_wrapper.lib")
+#pragma comment(lib,"../../CEF3/lib/x64/Release/libcef.lib")
+#pragma comment(lib,"../../CEF3/lib/x64/Release/libcef_dll_wrapper.lib")
 
 #endif
 

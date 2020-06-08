@@ -57,10 +57,10 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CEF3\simple_app.h">
+    <ClInclude Include="..\..\CEF3\simple_app.h">
       <Filter>CEF3</Filter>
     </ClInclude>
-    <ClInclude Include="CEF3\simple_handler.h">
+    <ClInclude Include="..\..\CEF3\simple_handler.h">
       <Filter>CEF3</Filter>
     </ClInclude>
   </ItemGroup>
@@ -95,13 +95,13 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CEF3\simple_app.cc">
+    <ClCompile Include="..\..\CEF3\simple_app.cc">
       <Filter>CEF3</Filter>
     </ClCompile>
-    <ClCompile Include="CEF3\simple_handler.cc">
+    <ClCompile Include="..\..\CEF3\simple_handler.cc">
       <Filter>CEF3</Filter>
     </ClCompile>
-    <ClCompile Include="CEF3\simple_handler_win.cc">
+    <ClCompile Include="..\..\CEF3\simple_handler_win.cc">
       <Filter>CEF3</Filter>
     </ClCompile>
   </ItemGroup>

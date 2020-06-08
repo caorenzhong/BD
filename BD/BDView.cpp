@@ -151,8 +151,8 @@ void CBDView::OnInitialUpdate()
 	window_info.SetAsChild(GetSafeHwnd(), rt); // cefsimple中的是用SetAsPopup，这里嵌入控件要用SetAsChild
 	m_CefHandler = new SimpleHandler(false);
 	//std::string url = "http://www.baidu.com";
-	std::string url = "http://61.183.231.150:8003/topeakgis-pc/#/";
-	//std::string url = "D:/Code/BD/BD/CEF3/geodemo.html";
+	//std::string url = "http://61.183.231.150:8003/topeakgis-pc/#/";
+	std::string url = "D:/Code/CEF3/geodemo.html";
 	
 	CefBrowserSettings browser_settings;
 	CefBrowserHost::CreateBrowser(window_info, m_CefHandler, CefString(url), browser_settings, NULL, NULL);
